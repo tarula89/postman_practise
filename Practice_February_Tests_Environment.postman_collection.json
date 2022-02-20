@@ -1,0 +1,241 @@
+{
+	"info": {
+		"_postman_id": "10d74514-c2d3-42f5-a4df-900ebce7b634",
+		"name": "Practice_February",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.172:5005/",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"172"
+					],
+					"port": "5005",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/first",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"first"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/get_method?name=Yulia&age=30",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Yulia"
+						},
+						{
+							"key": "age",
+							"value": "30"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info_1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Yulia",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "32",
+							"type": "text"
+						},
+						{
+							"key": "weight",
+							"value": "54",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_1",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_1"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Dali",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "50",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "{{salary_1}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/user_info_2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info_4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var yolochka = JSON.parse(responseBody);\r",
+							"var salary = +yolochka.salary[1]\r",
+							"\r",
+							"var arr_len = salary.length;\r",
+							"\r",
+							"console.log(\"arr_len = \" + arr_len)\r",
+							"\r",
+							"pm.test(\"Your test name\", function () {\r",
+							"   \r",
+							"    pm.expect(salary).to.eql(61000);\r",
+							"});\r",
+							"\r",
+							"pm.environment.set(\"salary_1\", salary);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/object_info_4?name=Van Gogh&age=37&salary=100000",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Van Gogh"
+						},
+						{
+							"key": "age",
+							"value": "37"
+						},
+						{
+							"key": "salary",
+							"value": "100000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

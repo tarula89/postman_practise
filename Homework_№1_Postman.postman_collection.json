@@ -1,0 +1,417 @@
+{
+	"info": {
+		"_postman_id": "957597e3-4e1c-4d63-9041-1ca0db836334",
+		"name": "Homework_№1_Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "object_info_1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "116.203.27.46:5002/object_info_1?age=31&weight=53&name=Yuliya",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "31"
+						},
+						{
+							"key": "weight",
+							"value": "53"
+						},
+						{
+							"key": "name",
+							"value": "Yuliya"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "116.203.27.46:5002/object_info_2?age=31&salary=50000&name=Yuliya",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "31"
+						},
+						{
+							"key": "salary",
+							"value": "50000"
+						},
+						{
+							"key": "name",
+							"value": "Yuliya"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "116.203.27.46:5002/object_info_3?age=32&salary=65000&name=Catherina",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "32"
+						},
+						{
+							"key": "salary",
+							"value": "65000"
+						},
+						{
+							"key": "name",
+							"value": "Catherina"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info_4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "116.203.27.46:5002/object_info_4?age=29&name=Maxim&salary=55000",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "29"
+						},
+						{
+							"key": "name",
+							"value": "Maxim"
+						},
+						{
+							"key": "salary",
+							"value": "55000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info_1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "25",
+							"type": "text"
+						},
+						{
+							"key": "weight",
+							"value": "65",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Ivan",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/user_info_1",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"user_info_1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "36",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "100000",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Petr",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/user_info_2",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "28",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "58900",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Nikolya",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/user_info_3",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info_4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "30",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "John",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "66000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/user_info_4",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"user_info_4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "89c6e329-72dd-49e4-a3c5-465eb47ad8a4",
+		"name": "Freddy_Candy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"username\": \"<username>\", \r\n    \"password\": \"<password>\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://freddy.codesubmit.io/login",
+					"protocol": "https",
+					"host": [
+						"freddy",
+						"codesubmit",
+						"io"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_data_for_dashboard",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <access_token>",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://freddy.codesubmit.io/dashboard",
+					"protocol": "https",
+					"host": [
+						"freddy",
+						"codesubmit",
+						"io"
+					],
+					"path": [
+						"dashboard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Refresh_access_token",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <refresh_token>",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://freddy.codesubmit.io/refresh",
+					"protocol": "https",
+					"host": [
+						"freddy",
+						"codesubmit",
+						"io"
+					],
+					"path": [
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_orders",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <access_token>",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://freddy.codesubmit.io/orders",
+					"protocol": "https",
+					"host": [
+						"freddy",
+						"codesubmit",
+						"io"
+					],
+					"path": [
+						"orders"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,607 @@
+{
+	"id": "1c75a886-1621-4bd7-9b88-e02cf0cf001f",
+	"name": "Homework_№2_Postman_Age_USA",
+	"timestamp": "2021-05-06T19:45:04.868Z",
+	"collection_id": "462d8aa1-29ed-4392-a6cc-eced7534a5b5",
+	"folder_id": 0,
+	"environment_id": "d6997816-40c1-4dd1-8333-563927bd9038",
+	"totalPass": 14,
+	"totalFail": 5,
+	"results": [
+		{
+			"id": "3f2cb19d-a507-4917-bf38-8a24c3406454",
+			"name": "Age 0-20 underage (check_1)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 147,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				147
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0ab82fa5-4283-44e7-8f27-436f59fcffe5",
+			"name": "Age 0-20 underage (check_2)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				132
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4f8a6215-0a78-4b41-94a7-e24271583d09",
+			"name": "Age 0-20 underage (check_3)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 111,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				111
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "577a4724-7232-4204-904b-4a39e5d05e95",
+			"name": "Age 0-20 underage (check_4)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 203,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				203
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f4f5b8fc-c43f-4c6d-8c6c-519dabeb6a74",
+			"name": "Age 0-20 underage (check_5)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				187
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d99a5c0c-a35d-4ddc-891b-ab4c6ed780f7",
+			"name": "Age 0-20 underage (check_6)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				88
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6394fb26-d974-4162-b378-19a5209bc75e",
+			"name": "Age 0-20 underage (check_7)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 186,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				186
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c1e9e523-d082-43d5-a6e6-8010c1108087",
+			"name": "Age 21-50 adult (check_1)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 187,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				187
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "277372bd-c90d-42ce-a844-cf766ee40f80",
+			"name": "Age 21-50 adult (check_2)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				88
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c8059eeb-ecd3-4829-9f85-67b98f3c368d",
+			"name": "Age 21-50 adult (check_3)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 185,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				185
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d5737899-4115-407f-8b8c-854455839bb2",
+			"name": "Age 21-50 adult (check_4)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				120
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2af67fe4-78f6-467c-87d9-de1e7bd9e2db",
+			"name": "Age 21-50 adult (check_5)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 155,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				155
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4566c5fa-57e8-4dba-af9c-ca7634bd89f9",
+			"name": "Age 21-50 adult (check_6)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 187,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				187
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "cdf35132-cba4-4a85-a237-bc9d514304d2",
+			"name": "Age 50-100 antiquity (check_1)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 95,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				95
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7b2c8a3d-6ee5-49e8-8d94-d64dcf424488",
+			"name": "Age 50-100 antiquity (check_2)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 179,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				179
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "03c4d954-edd5-4ea0-81cd-d2530f7a562d",
+			"name": "Age 50-100 antiquity (check_3)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 146,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				146
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "96484766-fcba-4d3b-9f0d-efae45de4bce",
+			"name": "Age 50-100 antiquity (check_4)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				99
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "11aabd45-092d-41be-84dd-206708691648",
+			"name": "Age 50-100 antiquity (check_5)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 219,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "309661c7-3435-4c26-9af2-a8d4451d9aa0",
+			"name": "Age 50-100 antiquity (check_6)",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 131,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				131
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2845,
+	"collection": {
+		"requests": [
+			{
+				"id": "3f2cb19d-a507-4917-bf38-8a24c3406454",
+				"method": "POST"
+			},
+			{
+				"id": "0ab82fa5-4283-44e7-8f27-436f59fcffe5",
+				"method": "POST"
+			},
+			{
+				"id": "4f8a6215-0a78-4b41-94a7-e24271583d09",
+				"method": "POST"
+			},
+			{
+				"id": "577a4724-7232-4204-904b-4a39e5d05e95",
+				"method": "POST"
+			},
+			{
+				"id": "f4f5b8fc-c43f-4c6d-8c6c-519dabeb6a74",
+				"method": "POST"
+			},
+			{
+				"id": "d99a5c0c-a35d-4ddc-891b-ab4c6ed780f7",
+				"method": "POST"
+			},
+			{
+				"id": "6394fb26-d974-4162-b378-19a5209bc75e",
+				"method": "POST"
+			},
+			{
+				"id": "c1e9e523-d082-43d5-a6e6-8010c1108087",
+				"method": "POST"
+			},
+			{
+				"id": "277372bd-c90d-42ce-a844-cf766ee40f80",
+				"method": "POST"
+			},
+			{
+				"id": "c8059eeb-ecd3-4829-9f85-67b98f3c368d",
+				"method": "POST"
+			},
+			{
+				"id": "d5737899-4115-407f-8b8c-854455839bb2",
+				"method": "POST"
+			},
+			{
+				"id": "2af67fe4-78f6-467c-87d9-de1e7bd9e2db",
+				"method": "POST"
+			},
+			{
+				"id": "4566c5fa-57e8-4dba-af9c-ca7634bd89f9",
+				"method": "POST"
+			},
+			{
+				"id": "cdf35132-cba4-4a85-a237-bc9d514304d2",
+				"method": "POST"
+			},
+			{
+				"id": "7b2c8a3d-6ee5-49e8-8d94-d64dcf424488",
+				"method": "POST"
+			},
+			{
+				"id": "03c4d954-edd5-4ea0-81cd-d2530f7a562d",
+				"method": "POST"
+			},
+			{
+				"id": "96484766-fcba-4d3b-9f0d-efae45de4bce",
+				"method": "POST"
+			},
+			{
+				"id": "11aabd45-092d-41be-84dd-206708691648",
+				"method": "POST"
+			},
+			{
+				"id": "309661c7-3435-4c26-9af2-a8d4451d9aa0",
+				"method": "POST"
+			}
+		]
+	}
+}
